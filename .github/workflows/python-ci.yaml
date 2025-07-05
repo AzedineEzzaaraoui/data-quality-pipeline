@@ -27,3 +27,5 @@ jobs:
     - name: Run tests
       run: |
         pytest --maxfail=1 --disable-warnings -q
+    - name: Echo fin
+      run: echo "fin execution workflow avec sucess "
