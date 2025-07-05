@@ -48,12 +48,12 @@ jobs:
       - name: 📁 Upload plot image as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: data-quality-result
+          name: data-quality-result-png
           path: reports.png
       - name: 📁 Upload plot csv as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: data-quality-result
+          name: data-quality-result-csv
           path: resulat.csv
 
       - name: ✅ Job Finished
