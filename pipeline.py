@@ -88,7 +88,7 @@ df=pd.read_csv(r"C:\Users\user\Projets_data\Pipeline_data_quality\Client_Data_Sa
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(r"C:\Users\user\Projets_data\Pipeline_data_quality\Client_Data_Sample.csv", sep=';', dtype={'telephone': str})
+    df = pd.read_csv("Client_Data_Sample.csv", sep=';', dtype={'telephone': str})
     print(analyser_dataframe(df))
 
 
