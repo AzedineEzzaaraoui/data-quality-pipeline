@@ -84,7 +84,7 @@ def analyser_dataframe(df):
 
     return pd.DataFrame(resultat) 
 
-df=pd.read_csv(r"C:\Users\user\Projets_data\Pipeline_data_quality\Client_Data_Sample.csv" ,sep=';', dtype={'telephone': str})
+df=pd.read_csv("Client_Data_Sample.csv" ,sep=';', dtype={'telephone': str})
 
 
 if __name__ == "__main__":
