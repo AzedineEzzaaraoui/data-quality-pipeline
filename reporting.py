@@ -17,5 +17,6 @@ def plot_qualite(df_qualite):
 if __name__ == "__main__":
     df = pd.read_csv("Client_Data_Sample.csv", sep=';', dtype={'telephone': str})
 
-    vis=analyser_dataframe(df)  # ta fonction qui renvoie le DataFrame résumé
+    vis=analyser_dataframe(df)  
+    vis.to_csv("resulat.csv", index=False)
     plot_qualite(vis)
