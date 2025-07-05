@@ -45,11 +45,16 @@ jobs:
       - name: 📊 Run reporting script (generate graph)
         run: |
           python reporting.py
-      - name: 📁 Upload plot as artifact
+      - name: 📁 Upload plot image as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: reports-graph
+          name: data-quality-result
           path: reports.png
+      - name: 📁 Upload plot csv as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-quality-result
+          path: resulat.csv
 
       - name: ✅ Job Finished
         run: echo "fin"
