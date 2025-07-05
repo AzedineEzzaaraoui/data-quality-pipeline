@@ -1,0 +1,6 @@
+id_client;nom;prenom;email;telephone;pays;date_naissance
+1;Durand;;jean.durand@gmail.com;+33612345678;France;15/05/1990
+2;Martin;;claire.martin@;0612345678;France;20/07/2010
+3;;John;john.doe@gmail.com;+33612345678;USA;01/12/1985
+4;Dupont;Sophie;sophie.dupont@gmail;0601020304;France;30/04/1910
+5;Smith;Anna;anna.smith@gmail.com;+447911123456;UK;02/11/2005
