@@ -13,9 +13,9 @@ def plot_qualite(df_qualite):
     plt.xticks(rotation=45)
     plt.tight_layout()
     
-    plt.savefig(r"C:\Users\user\Projets_data\Pipeline_data_quality\reports.png")
+    plt.savefig("reports.png")
 if __name__ == "__main__":
-    df = pd.read_csv(r"C:\Users\user\Projets_data\Pipeline_data_quality\Client_Data_Sample.csv", sep=';', dtype={'telephone': str})
+    df = pd.read_csv("Client_Data_Sample.csv", sep=';', dtype={'telephone': str})
 
     vis=analyser_dataframe(df)  # ta fonction qui renvoie le DataFrame résumé
     plot_qualite(vis)
